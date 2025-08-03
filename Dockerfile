@@ -7,8 +7,8 @@ WORKDIR /app
 # Copy package files for admin panel
 COPY package*.json ./
 
-# Install dependencies
-RUN npm install --only=production
+# Install dependencies (including dev dependencies for build)
+RUN npm install
 
 # Copy admin panel source
 COPY . .
