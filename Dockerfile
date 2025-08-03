@@ -7,11 +7,12 @@ RUN mkdir -p /usr/share/nginx/html/images \
     /usr/share/nginx/html/generated \
     /usr/share/nginx/html/assets
 
-# Copy static files
+# Copy existing directories
 COPY images/ /usr/share/nginx/html/images/
-COPY uploads/ /usr/share/nginx/html/uploads/
-COPY generated/ /usr/share/nginx/html/generated/
 COPY assets/ /usr/share/nginx/html/assets/
+
+# Create empty directories for uploads and generated files
+RUN mkdir -p /usr/share/nginx/html/uploads /usr/share/nginx/html/generated
 
 # Copy nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
