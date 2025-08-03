@@ -1,0 +1,805 @@
+{
+  "version": "2.0.0",
+  "timestamp": "2025-06-26T16:47:16.580Z",
+  "description": "Mapeamento completo com sistema de 4 prompts visuais específicos",
+  "prompt_types": {
+    "1": {
+      "id": 1,
+      "description": "Família sorrindo e conversando",
+      "keywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "ideal_for": [
+        "reunificacao-familiar",
+        "trazer-familia-eua",
+        "green-card-refugiados",
+        "asilo-politico-eua",
+        "cidadania-americana",
+        "naturalizacao-americana",
+        "sponsor-eua",
+        "sistema-imigracao-americano"
+      ]
+    },
+    "2": {
+      "id": 2,
+      "description": "Casal sorrindo olhando o computador",
+      "keywords": [
+        "couple looking at computer smiling",
+        "couple computer planning together",
+        "couple laptop research visa",
+        "couple online application",
+        "couple computer immigration"
+      ],
+      "ideal_for": [
+        "visto-turista-b2",
+        "visto-estudante-f1",
+        "visto-h1b-trabalho",
+        "consulado-americano",
+        "entrevista-visto-americano",
+        "documentos-imigracao",
+        "loteria-green-card",
+        "mudanca-status-eua"
+      ]
+    },
+    "3": {
+      "id": 3,
+      "description": "Família viajando e sorrindo",
+      "keywords": [
+        "family traveling with luggage happy",
+        "family airport journey smiling",
+        "family with suitcases travel",
+        "family moving to america",
+        "family immigration journey"
+      ],
+      "ideal_for": [
+        "visto-transito-c1",
+        "visto-j1-intercambio",
+        "visto-p1-atletas",
+        "visto-r1-religioso",
+        "visto-l1-transferencia",
+        "green-card-habilidades",
+        "green-card-profissional",
+        "renovar-green-card"
+      ]
+    },
+    "4": {
+      "id": 4,
+      "description": "Casal conversando tomando decisão",
+      "keywords": [
+        "couple serious conversation decision",
+        "couple planning future together",
+        "couple discussing important decision",
+        "couple business meeting",
+        "couple investment discussion"
+      ],
+      "ideal_for": [
+        "visto-e2-investidor",
+        "visto-eb5-investimento",
+        "green-card-eb5",
+        "abrir-empresa-eua",
+        "visto-k1-noivo",
+        "green-card-casamento",
+        "visto-o1-habilidades",
+        "deportacao-defesa"
+      ]
+    }
+  },
+  "mappings": {
+    "reunificacao-familiar": {
+      "title": "Reunificação Familiar nos EUA",
+      "slug": "reunificacao-familiar",
+      "localPath": "/images/blog/reunificacao-familiar.jpg",
+      "imageUrl": "/images/blog/reunificacao-familiar.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "50KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando",
+      "promptKeywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.581Z"
+    },
+    "trazer-familia-eua": {
+      "title": "Como Trazer a Família para os EUA",
+      "slug": "trazer-familia-eua",
+      "localPath": "/images/blog/trazer-familia-eua.jpg",
+      "imageUrl": "/images/blog/trazer-familia-eua.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "79KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando",
+      "promptKeywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.581Z"
+    },
+    "green-card-refugiados": {
+      "title": "Green Card para Refugiados",
+      "slug": "green-card-refugiados",
+      "localPath": "/images/blog/green-card-refugiados.jpg",
+      "imageUrl": "/images/blog/green-card-refugiados.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "69KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando",
+      "promptKeywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.581Z"
+    },
+    "asilo-politico-eua": {
+      "title": "Asilo Político nos Estados Unidos",
+      "slug": "asilo-politico-eua",
+      "localPath": "/images/blog/asilo-politico-eua.jpg",
+      "imageUrl": "/images/blog/asilo-politico-eua.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "51KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando",
+      "promptKeywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.581Z"
+    },
+    "cidadania-americana": {
+      "title": "Como Obter a Cidadania Americana",
+      "slug": "cidadania-americana",
+      "localPath": "/images/blog/cidadania-americana.jpg",
+      "imageUrl": "/images/blog/cidadania-americana.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "90KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando",
+      "promptKeywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.581Z"
+    },
+    "naturalizacao-americana": {
+      "title": "Naturalização Americana",
+      "slug": "naturalizacao-americana",
+      "localPath": "/images/blog/naturalizacao-americana.jpg",
+      "imageUrl": "/images/blog/naturalizacao-americana.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "69KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando",
+      "promptKeywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.581Z"
+    },
+    "sponsor-eua": {
+      "title": "Sponsor para Imigração nos EUA",
+      "slug": "sponsor-eua",
+      "localPath": "/images/blog/sponsor-eua.jpg",
+      "imageUrl": "/images/blog/sponsor-eua.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "69KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando",
+      "promptKeywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.581Z"
+    },
+    "sistema-imigracao-americano": {
+      "title": "Sistema de Imigração Americano",
+      "slug": "sistema-imigracao-americano",
+      "localPath": "/images/blog/sistema-imigracao-americano.jpg",
+      "imageUrl": "/images/blog/sistema-imigracao-americano.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "50KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando",
+      "promptKeywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.582Z"
+    },
+    "visto-turista-b2": {
+      "title": "Visto B-2 de Turista",
+      "slug": "visto-turista-b2",
+      "localPath": "/images/blog/visto-turista-b2.jpg",
+      "imageUrl": "/images/blog/visto-turista-b2.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "52KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador",
+      "promptKeywords": [
+        "couple looking at computer smiling",
+        "couple computer planning together",
+        "couple laptop research visa",
+        "couple online application",
+        "couple computer immigration"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.582Z"
+    },
+    "visto-estudante-f1": {
+      "title": "Visto F-1 para Estudantes",
+      "slug": "visto-estudante-f1",
+      "localPath": "/images/blog/visto-estudante-f1.jpg",
+      "imageUrl": "/images/blog/visto-estudante-f1.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "46KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador",
+      "promptKeywords": [
+        "couple looking at computer smiling",
+        "couple computer planning together",
+        "couple laptop research visa",
+        "couple online application",
+        "couple computer immigration"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.582Z"
+    },
+    "visto-h1b-trabalho": {
+      "title": "Visto H-1B de Trabalho",
+      "slug": "visto-h1b-trabalho",
+      "localPath": "/images/blog/visto-h1b-trabalho.jpg",
+      "imageUrl": "/images/blog/visto-h1b-trabalho.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "63KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador",
+      "promptKeywords": [
+        "couple looking at computer smiling",
+        "couple computer planning together",
+        "couple laptop research visa",
+        "couple online application",
+        "couple computer immigration"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.582Z"
+    },
+    "consulado-americano": {
+      "title": "Consulado Americano: Guia Completo",
+      "slug": "consulado-americano",
+      "localPath": "/images/blog/consulado-americano.jpg",
+      "imageUrl": "/images/blog/consulado-americano.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "35KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador",
+      "promptKeywords": [
+        "couple looking at computer smiling",
+        "couple computer planning together",
+        "couple laptop research visa",
+        "couple online application",
+        "couple computer immigration"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.582Z"
+    },
+    "entrevista-visto-americano": {
+      "title": "Entrevista para Visto Americano",
+      "slug": "entrevista-visto-americano",
+      "localPath": "/images/blog/entrevista-visto-americano.jpg",
+      "imageUrl": "/images/blog/entrevista-visto-americano.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "45KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador",
+      "promptKeywords": [
+        "couple looking at computer smiling",
+        "couple computer planning together",
+        "couple laptop research visa",
+        "couple online application",
+        "couple computer immigration"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.582Z"
+    },
+    "documentos-imigracao": {
+      "title": "Documentos para Imigração",
+      "slug": "documentos-imigracao",
+      "localPath": "/images/blog/documentos-imigracao.jpg",
+      "imageUrl": "/images/blog/documentos-imigracao.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "46KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador",
+      "promptKeywords": [
+        "couple looking at computer smiling",
+        "couple computer planning together",
+        "couple laptop research visa",
+        "couple online application",
+        "couple computer immigration"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.582Z"
+    },
+    "loteria-green-card": {
+      "title": "Loteria do Green Card",
+      "slug": "loteria-green-card",
+      "localPath": "/images/blog/loteria-green-card.jpg",
+      "imageUrl": "/images/blog/loteria-green-card.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "50KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador",
+      "promptKeywords": [
+        "couple looking at computer smiling",
+        "couple computer planning together",
+        "couple laptop research visa",
+        "couple online application",
+        "couple computer immigration"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.582Z"
+    },
+    "mudanca-status-eua": {
+      "title": "Mudança de Status nos EUA",
+      "slug": "mudanca-status-eua",
+      "localPath": "/images/blog/mudanca-status-eua.jpg",
+      "imageUrl": "/images/blog/mudanca-status-eua.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "54KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador",
+      "promptKeywords": [
+        "couple looking at computer smiling",
+        "couple computer planning together",
+        "couple laptop research visa",
+        "couple online application",
+        "couple computer immigration"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.582Z"
+    },
+    "visto-transito-c1": {
+      "title": "Visto C-1 de Trânsito",
+      "slug": "visto-transito-c1",
+      "localPath": "/images/blog/visto-transito-c1.jpg",
+      "imageUrl": "/images/blog/visto-transito-c1.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "35KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo",
+      "promptKeywords": [
+        "family traveling with luggage happy",
+        "family airport journey smiling",
+        "family with suitcases travel",
+        "family moving to america",
+        "family immigration journey"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "visto-j1-intercambio": {
+      "title": "Visto J-1 de Intercâmbio",
+      "slug": "visto-j1-intercambio",
+      "localPath": "/images/blog/visto-j1-intercambio.jpg",
+      "imageUrl": "/images/blog/visto-j1-intercambio.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "71KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo",
+      "promptKeywords": [
+        "family traveling with luggage happy",
+        "family airport journey smiling",
+        "family with suitcases travel",
+        "family moving to america",
+        "family immigration journey"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "visto-p1-atletas": {
+      "title": "Visto P-1 para Atletas",
+      "slug": "visto-p1-atletas",
+      "localPath": "/images/blog/visto-p1-atletas.jpg",
+      "imageUrl": "/images/blog/visto-p1-atletas.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "71KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo",
+      "promptKeywords": [
+        "family traveling with luggage happy",
+        "family airport journey smiling",
+        "family with suitcases travel",
+        "family moving to america",
+        "family immigration journey"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "visto-r1-religioso": {
+      "title": "Visto R-1 Religioso",
+      "slug": "visto-r1-religioso",
+      "localPath": "/images/blog/visto-r1-religioso.jpg",
+      "imageUrl": "/images/blog/visto-r1-religioso.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "54KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo",
+      "promptKeywords": [
+        "family traveling with luggage happy",
+        "family airport journey smiling",
+        "family with suitcases travel",
+        "family moving to america",
+        "family immigration journey"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "visto-l1-transferencia": {
+      "title": "Visto L-1 de Transferência",
+      "slug": "visto-l1-transferencia",
+      "localPath": "/images/blog/visto-l1-transferencia.jpg",
+      "imageUrl": "/images/blog/visto-l1-transferencia.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "35KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo",
+      "promptKeywords": [
+        "family traveling with luggage happy",
+        "family airport journey smiling",
+        "family with suitcases travel",
+        "family moving to america",
+        "family immigration journey"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "green-card-habilidades": {
+      "title": "Green Card por Habilidades Extraordinárias",
+      "slug": "green-card-habilidades",
+      "localPath": "/images/blog/green-card-habilidades.jpg",
+      "imageUrl": "/images/blog/green-card-habilidades.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "61KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo",
+      "promptKeywords": [
+        "family traveling with luggage happy",
+        "family airport journey smiling",
+        "family with suitcases travel",
+        "family moving to america",
+        "family immigration journey"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "green-card-profissional": {
+      "title": "Green Card Profissional",
+      "slug": "green-card-profissional",
+      "localPath": "/images/blog/green-card-profissional.jpg",
+      "imageUrl": "/images/blog/green-card-profissional.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "35KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo",
+      "promptKeywords": [
+        "family traveling with luggage happy",
+        "family airport journey smiling",
+        "family with suitcases travel",
+        "family moving to america",
+        "family immigration journey"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "renovar-green-card": {
+      "title": "Como Renovar o Green Card",
+      "slug": "renovar-green-card",
+      "localPath": "/images/blog/renovar-green-card.jpg",
+      "imageUrl": "/images/blog/renovar-green-card.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "50KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo",
+      "promptKeywords": [
+        "family traveling with luggage happy",
+        "family airport journey smiling",
+        "family with suitcases travel",
+        "family moving to america",
+        "family immigration journey"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "visto-e2-investidor": {
+      "title": "Visto E-2 para Investidores",
+      "slug": "visto-e2-investidor",
+      "localPath": "/images/blog/visto-e2-investidor.jpg",
+      "imageUrl": "/images/blog/visto-e2-investidor.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "52KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão",
+      "promptKeywords": [
+        "couple serious conversation decision",
+        "couple planning future together",
+        "couple discussing important decision",
+        "couple business meeting",
+        "couple investment discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "visto-eb5-investimento": {
+      "title": "Visto EB-5 de Investimento",
+      "slug": "visto-eb5-investimento",
+      "localPath": "/images/blog/visto-eb5-investimento.jpg",
+      "imageUrl": "/images/blog/visto-eb5-investimento.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "50KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão",
+      "promptKeywords": [
+        "couple serious conversation decision",
+        "couple planning future together",
+        "couple discussing important decision",
+        "couple business meeting",
+        "couple investment discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "green-card-eb5": {
+      "title": "Green Card EB-5 por Investimento",
+      "slug": "green-card-eb5",
+      "localPath": "/images/blog/green-card-eb5.jpg",
+      "imageUrl": "/images/blog/green-card-eb5.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "46KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão",
+      "promptKeywords": [
+        "couple serious conversation decision",
+        "couple planning future together",
+        "couple discussing important decision",
+        "couple business meeting",
+        "couple investment discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "abrir-empresa-eua": {
+      "title": "Como Abrir uma Empresa nos EUA",
+      "slug": "abrir-empresa-eua",
+      "localPath": "/images/blog/abrir-empresa-eua.jpg",
+      "imageUrl": "/images/blog/abrir-empresa-eua.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "79KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão",
+      "promptKeywords": [
+        "couple serious conversation decision",
+        "couple planning future together",
+        "couple discussing important decision",
+        "couple business meeting",
+        "couple investment discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "visto-k1-noivo": {
+      "title": "Visto K-1 de Noivo(a)",
+      "slug": "visto-k1-noivo",
+      "localPath": "/images/blog/visto-k1-noivo.jpg",
+      "imageUrl": "/images/blog/visto-k1-noivo.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "28KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão",
+      "promptKeywords": [
+        "couple serious conversation decision",
+        "couple planning future together",
+        "couple discussing important decision",
+        "couple business meeting",
+        "couple investment discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "green-card-casamento": {
+      "title": "Green Card por Casamento",
+      "slug": "green-card-casamento",
+      "localPath": "/images/blog/green-card-casamento.jpg",
+      "imageUrl": "/images/blog/green-card-casamento.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "54KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão",
+      "promptKeywords": [
+        "couple serious conversation decision",
+        "couple planning future together",
+        "couple discussing important decision",
+        "couple business meeting",
+        "couple investment discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "visto-o1-habilidades": {
+      "title": "Visto O-1 para Habilidades Extraordinárias",
+      "slug": "visto-o1-habilidades",
+      "localPath": "/images/blog/visto-o1-habilidades.jpg",
+      "imageUrl": "/images/blog/visto-o1-habilidades.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "56KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão",
+      "promptKeywords": [
+        "couple serious conversation decision",
+        "couple planning future together",
+        "couple discussing important decision",
+        "couple business meeting",
+        "couple investment discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "deportacao-defesa": {
+      "title": "Defesa contra Deportação",
+      "slug": "deportacao-defesa",
+      "localPath": "/images/blog/deportacao-defesa.jpg",
+      "imageUrl": "/images/blog/deportacao-defesa.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "35KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão",
+      "promptKeywords": [
+        "couple serious conversation decision",
+        "couple planning future together",
+        "couple discussing important decision",
+        "couple business meeting",
+        "couple investment discussion"
+      ],
+      "verified": true,
+      "assignmentType": "ideal",
+      "createdAt": "2025-06-26T16:47:16.583Z"
+    },
+    "autorizacao-trabalho-eua": {
+      "title": "Autorização de Trabalho nos EUA",
+      "slug": "autorizacao-trabalho-eua",
+      "localPath": "/images/blog/autorizacao-trabalho-eua.jpg",
+      "imageUrl": "/images/blog/autorizacao-trabalho-eua.jpg",
+      "source": "Local (Downloaded)",
+      "quality": "50KB",
+      "photographer": "Various (Pexels/Pixabay/Lorem Picsum)",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando",
+      "promptKeywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion planning",
+        "family sitting together smiling",
+        "family meeting discussion"
+      ],
+      "verified": true,
+      "assignmentType": "balanced",
+      "createdAt": "2025-06-26T16:47:16.584Z"
+    }
+  },
+  "statistics": {
+    "total_articles": 33,
+    "prompt_distribution": {
+      "1": 9,
+      "2": 8,
+      "3": 8,
+      "4": 8
+    },
+    "assignment_types": {
+      "ideal": 32,
+      "balanced": 1
+    },
+    "last_download": {
+      "timestamp": "2025-06-26T16:48:45.776Z",
+      "downloaded": 0,
+      "skipped": 23,
+      "errors": 10
+    }
+  }
+}

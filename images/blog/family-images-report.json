@@ -1,0 +1,450 @@
+{
+  "timestamp": "2025-06-26T15:52:27.607Z",
+  "strategy": "family-focused-prompts",
+  "prompt_types": [
+    {
+      "id": 1,
+      "description": "Família sorrindo e conversando",
+      "keywords": [
+        "happy family conversation",
+        "family talking together",
+        "family discussion"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Casal sorrindo olhando o computador",
+      "keywords": [
+        "couple looking at computer",
+        "couple computer planning",
+        "couple laptop together"
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Família viajando e sorrindo",
+      "keywords": [
+        "family traveling happy",
+        "family with luggage",
+        "family journey"
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Casal conversando tomando decisão",
+      "keywords": [
+        "couple making decision",
+        "couple serious conversation",
+        "couple planning together"
+      ]
+    }
+  ],
+  "total": 33,
+  "successful": 33,
+  "failed": 0,
+  "success_rate": 100,
+  "prompt_distribution": {
+    "1": 9,
+    "2": 8,
+    "3": 8,
+    "4": 8
+  },
+  "results": [
+    {
+      "success": true,
+      "title": "Como Solicitar o Green Card por Casamento",
+      "slug": "green-card-casamento",
+      "localPath": "/images/blog/green-card-casamento.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7117622/pexels-photo-7117622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6720x4480",
+      "photographer": "cottonbro studio",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando"
+    },
+    {
+      "success": true,
+      "title": "Visto EB-5: Investimento para Residência Permanente",
+      "slug": "visto-eb5-investimento",
+      "localPath": "/images/blog/visto-eb5-investimento.jpg",
+      "originalUrl": "https://images.pexels.com/photos/6787953/pexels-photo-6787953.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5200x3467",
+      "photographer": "Marcus Aurelius",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador"
+    },
+    {
+      "success": true,
+      "title": "Processo de Naturalização Americana: Passo a Passo",
+      "slug": "naturalizacao-americana",
+      "localPath": "/images/blog/naturalizacao-americana.jpg",
+      "originalUrl": "https://images.pexels.com/photos/5276630/pexels-photo-5276630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6000x4000",
+      "photographer": "Alex P",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo"
+    },
+    {
+      "success": true,
+      "title": "Visto de Trabalho H-1B: Guia Completo",
+      "slug": "visto-h1b-trabalho",
+      "localPath": "/images/blog/visto-h1b-trabalho.jpg",
+      "originalUrl": "https://images.pexels.com/photos/8962686/pexels-photo-8962686.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5144x3648",
+      "photographer": "Ivan Samkov",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão"
+    },
+    {
+      "success": true,
+      "title": "Como Preparar para a Entrevista do Visto Americano",
+      "slug": "entrevista-visto-americano",
+      "localPath": "/images/blog/entrevista-visto-americano.jpg",
+      "originalUrl": "https://images.pexels.com/photos/6787970/pexels-photo-6787970.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5200x3467",
+      "photographer": "Marcus Aurelius",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando"
+    },
+    {
+      "success": true,
+      "title": "Reunificação Familiar nos Estados Unidos",
+      "slug": "reunificacao-familiar",
+      "localPath": "/images/blog/reunificacao-familiar.jpg",
+      "originalUrl": "https://images.pexels.com/photos/6787953/pexels-photo-6787953.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5200x3467",
+      "photographer": "Marcus Aurelius",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador"
+    },
+    {
+      "success": true,
+      "title": "Visto de Estudante F-1: Tudo o que Precisa Saber",
+      "slug": "visto-estudante-f1",
+      "localPath": "/images/blog/visto-estudante-f1.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7854044/pexels-photo-7854044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6240x4160",
+      "photographer": "Michael Morse",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo"
+    },
+    {
+      "success": true,
+      "title": "Green Card por Habilidades Extraordinárias",
+      "slug": "green-card-habilidades",
+      "localPath": "/images/blog/green-card-habilidades.jpg",
+      "originalUrl": "https://images.pexels.com/photos/8901290/pexels-photo-8901290.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6504x4336",
+      "photographer": "Photo By: Kaboompics.com",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão"
+    },
+    {
+      "success": true,
+      "title": "Como Renovar seu Green Card",
+      "slug": "renovar-green-card",
+      "localPath": "/images/blog/renovar-green-card.jpg",
+      "originalUrl": "https://images.pexels.com/photos/6787953/pexels-photo-6787953.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5200x3467",
+      "photographer": "Marcus Aurelius",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando"
+    },
+    {
+      "success": true,
+      "title": "Visto de Turista B-2: Dicas para Aprovação",
+      "slug": "visto-turista-b2",
+      "localPath": "/images/blog/visto-turista-b2.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7971554/pexels-photo-7971554.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "8063x5375",
+      "photographer": "Darlene Alderson",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador"
+    },
+    {
+      "success": true,
+      "title": "Cidadania Americana: Requisitos e Processo",
+      "slug": "cidadania-americana",
+      "localPath": "/images/blog/cidadania-americana.jpg",
+      "originalUrl": "https://images.pexels.com/photos/8623325/pexels-photo-8623325.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6016x4016",
+      "photographer": "Kampus Production",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo"
+    },
+    {
+      "success": true,
+      "title": "Visto L-1: Transferência Intraempresarial",
+      "slug": "visto-l1-transferencia",
+      "localPath": "/images/blog/visto-l1-transferencia.jpg",
+      "originalUrl": "https://images.pexels.com/photos/9870221/pexels-photo-9870221.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5472x3648",
+      "photographer": "Ron Lach",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão"
+    },
+    {
+      "success": true,
+      "title": "Como Funciona o Sistema de Imigração Americano",
+      "slug": "sistema-imigracao-americano",
+      "localPath": "/images/blog/sistema-imigracao-americano.jpg",
+      "originalUrl": "https://images.pexels.com/photos/6787953/pexels-photo-6787953.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5200x3467",
+      "photographer": "Marcus Aurelius",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando"
+    },
+    {
+      "success": true,
+      "title": "Visto O-1: Para Pessoas com Habilidades Excepcionais",
+      "slug": "visto-o1-habilidades",
+      "localPath": "/images/blog/visto-o1-habilidades.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7314988/pexels-photo-7314988.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6000x4000",
+      "photographer": "Yan Krukau",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador"
+    },
+    {
+      "success": true,
+      "title": "Green Card através de Investimento EB-5",
+      "slug": "green-card-eb5",
+      "localPath": "/images/blog/green-card-eb5.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7854044/pexels-photo-7854044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6240x4160",
+      "photographer": "Michael Morse",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo"
+    },
+    {
+      "success": true,
+      "title": "Visto K-1: Noivo(a) de Cidadão Americano",
+      "slug": "visto-k1-noivo",
+      "localPath": "/images/blog/visto-k1-noivo.jpg",
+      "originalUrl": "https://images.pexels.com/photos/8293672/pexels-photo-8293672.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "4500x3000",
+      "photographer": "RDNE Stock project",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão"
+    },
+    {
+      "success": true,
+      "title": "Como Obter Autorização de Trabalho nos EUA",
+      "slug": "autorizacao-trabalho-eua",
+      "localPath": "/images/blog/autorizacao-trabalho-eua.jpg",
+      "originalUrl": "https://images.pexels.com/photos/6787953/pexels-photo-6787953.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5200x3467",
+      "photographer": "Marcus Aurelius",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando"
+    },
+    {
+      "success": true,
+      "title": "Asilo Político nos Estados Unidos",
+      "slug": "asilo-politico-eua",
+      "localPath": "/images/blog/asilo-politico-eua.jpg",
+      "originalUrl": "https://images.pexels.com/photos/8972801/pexels-photo-8972801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5917x3945",
+      "photographer": "SHVETS production",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador"
+    },
+    {
+      "success": true,
+      "title": "Visto P-1: Para Atletas e Artistas",
+      "slug": "visto-p1-atletas",
+      "localPath": "/images/blog/visto-p1-atletas.jpg",
+      "originalUrl": "https://images.pexels.com/photos/6213458/pexels-photo-6213458.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6000x4000",
+      "photographer": "Trần Long",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo"
+    },
+    {
+      "success": true,
+      "title": "Green Card por Categoria Profissional",
+      "slug": "green-card-profissional",
+      "localPath": "/images/blog/green-card-profissional.jpg",
+      "originalUrl": "https://images.pexels.com/photos/9870221/pexels-photo-9870221.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5472x3648",
+      "photographer": "Ron Lach",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão"
+    },
+    {
+      "success": true,
+      "title": "Como Trazer a Família para os Estados Unidos",
+      "slug": "trazer-familia-eua",
+      "localPath": "/images/blog/trazer-familia-eua.jpg",
+      "originalUrl": "https://images.pexels.com/photos/1128316/pexels-photo-1128316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5396x3933",
+      "photographer": "Agung Pandit Wiguna",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando"
+    },
+    {
+      "success": true,
+      "title": "Visto E-2: Investidor por Tratado",
+      "slug": "visto-e2-investidor",
+      "localPath": "/images/blog/visto-e2-investidor.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7971554/pexels-photo-7971554.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "8063x5375",
+      "photographer": "Darlene Alderson",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador"
+    },
+    {
+      "success": true,
+      "title": "Documentos Necessários para Imigração",
+      "slug": "documentos-imigracao",
+      "localPath": "/images/blog/documentos-imigracao.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7854044/pexels-photo-7854044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6240x4160",
+      "photographer": "Michael Morse",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo"
+    },
+    {
+      "success": true,
+      "title": "Como Funciona o Consulado Americano",
+      "slug": "consulado-americano",
+      "localPath": "/images/blog/consulado-americano.jpg",
+      "originalUrl": "https://images.pexels.com/photos/9870221/pexels-photo-9870221.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5472x3648",
+      "photographer": "Ron Lach",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão"
+    },
+    {
+      "success": true,
+      "title": "Visto R-1: Para Trabalhadores Religiosos",
+      "slug": "visto-r1-religioso",
+      "localPath": "/images/blog/visto-r1-religioso.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7117622/pexels-photo-7117622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6720x4480",
+      "photographer": "cottonbro studio",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando"
+    },
+    {
+      "success": true,
+      "title": "Green Card para Refugiados",
+      "slug": "green-card-refugiados",
+      "localPath": "/images/blog/green-card-refugiados.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7530016/pexels-photo-7530016.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6000x4000",
+      "photographer": "Mikhail Nilov",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador"
+    },
+    {
+      "success": true,
+      "title": "Como Conseguir um Sponsor nos EUA",
+      "slug": "sponsor-eua",
+      "localPath": "/images/blog/sponsor-eua.jpg",
+      "originalUrl": "https://images.pexels.com/photos/5276630/pexels-photo-5276630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6000x4000",
+      "photographer": "Alex P",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo"
+    },
+    {
+      "success": true,
+      "title": "Visto de Trânsito C-1: Guia Prático",
+      "slug": "visto-transito-c1",
+      "localPath": "/images/blog/visto-transito-c1.jpg",
+      "originalUrl": "https://images.pexels.com/photos/9870221/pexels-photo-9870221.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5472x3648",
+      "photographer": "Ron Lach",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão"
+    },
+    {
+      "success": true,
+      "title": "Mudança de Status nos Estados Unidos",
+      "slug": "mudanca-status-eua",
+      "localPath": "/images/blog/mudanca-status-eua.jpg",
+      "originalUrl": "https://images.pexels.com/photos/7117622/pexels-photo-7117622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6720x4480",
+      "photographer": "cottonbro studio",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando"
+    },
+    {
+      "success": true,
+      "title": "Como Funciona a Loteria do Green Card",
+      "slug": "loteria-green-card",
+      "localPath": "/images/blog/loteria-green-card.jpg",
+      "originalUrl": "https://images.pexels.com/photos/6787953/pexels-photo-6787953.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5200x3467",
+      "photographer": "Marcus Aurelius",
+      "promptType": 2,
+      "promptDescription": "Casal sorrindo olhando o computador"
+    },
+    {
+      "success": true,
+      "title": "Visto J-1: Programa de Intercâmbio",
+      "slug": "visto-j1-intercambio",
+      "localPath": "/images/blog/visto-j1-intercambio.jpg",
+      "originalUrl": "https://images.pexels.com/photos/6213458/pexels-photo-6213458.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "6000x4000",
+      "photographer": "Trần Long",
+      "promptType": 3,
+      "promptDescription": "Família viajando e sorrindo"
+    },
+    {
+      "success": true,
+      "title": "Deportação: Como se Defender",
+      "slug": "deportacao-defesa",
+      "localPath": "/images/blog/deportacao-defesa.jpg",
+      "originalUrl": "https://images.pexels.com/photos/9870221/pexels-photo-9870221.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5472x3648",
+      "photographer": "Ron Lach",
+      "promptType": 4,
+      "promptDescription": "Casal conversando tomando decisão"
+    },
+    {
+      "success": true,
+      "title": "Como Abrir Empresa nos Estados Unidos",
+      "slug": "abrir-empresa-eua",
+      "localPath": "/images/blog/abrir-empresa-eua.jpg",
+      "originalUrl": "https://images.pexels.com/photos/1128316/pexels-photo-1128316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "source": "Pexels",
+      "quality": "5396x3933",
+      "photographer": "Agung Pandit Wiguna",
+      "promptType": 1,
+      "promptDescription": "Família sorrindo e conversando"
+    }
+  ]
+}
