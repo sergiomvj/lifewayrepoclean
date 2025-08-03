@@ -1,13 +1,29 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LifeWay USA - Admin Panel</title>
+    <title>LifeWayUSA - Sua jornada rumo aos Estados Unidos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Fix para o erro __WS_TOKEN__ undefined
+      window.__WS_TOKEN__ = window.__WS_TOKEN__ || '';
+      
+      // Global error handler para capturar erros que possam quebrar a aplicação
+      window.addEventListener('error', function(e) {
+        if (e.message && e.message.includes('__WS_TOKEN__')) {
+          console.warn('__WS_TOKEN__ error caught and handled');
+          e.preventDefault();
+          return false;
+        }
+      });
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

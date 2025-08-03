@@ -1,14 +1,16 @@
-# 🏗️ LifeWay USA - Admin Panel
+# 🎨 LifeWay USA - Frontend
 
 ## Descrição
-Painel administrativo para gestão de usuários, configurações e analytics do LifeWay USA.
+Interface React/Vite do LifeWay USA com todas as funcionalidades principais.
 
 ## Funcionalidades
-- Dashboard de analytics
-- Gestão de usuários
-- Configurações do sistema
-- Relatórios e métricas
-- Monitoramento de atividades
+- Dashboard personalizado
+- Criador de Sonhos
+- VisaMatch com IA
+- Chat com Especialista
+- Sistema de gamificação
+- Geração de PDF
+- Sistema de perfil completo
 
 ## Tecnologias
 - React 18
@@ -16,8 +18,20 @@ Painel administrativo para gestão de usuários, configurações e analytics do 
 - Vite
 - Tailwind CSS
 - Radix UI
-- Recharts
+- React Query
 - Supabase
+- OpenAI Integration
+
+## Estrutura
+```
+src/
+├── components/     # Componentes reutilizáveis
+├── pages/          # Páginas da aplicação
+├── hooks/          # Hooks customizados
+├── services/       # Serviços (API, Supabase)
+├── utils/          # Utilitários
+└── types/          # Tipos TypeScript
+```
 
 ## Instalação
 ```bash
@@ -35,13 +49,21 @@ npm run build
 ```
 
 ## Variáveis de Ambiente
-Copie `.env.production` e configure:
+Configure no `.env.production`:
 - `VITE_SUPABASE_URL`
-- `VITE_SUPABASE_SERVICE_ROLE_KEY`
+- `VITE_SUPABASE_ANON_KEY`
 - `VITE_API_BASE_URL`
-- `VITE_ADMIN_SECRET_KEY`
+- `VITE_OPENAI_API_KEY`
 
 ## Deploy
 ```bash
-./deploy-admin.sh
+./deploy-frontend.sh
 ```
+
+## Páginas Principais
+- `/` - Homepage
+- `/dashboard` - Dashboard unificado
+- `/dreams` - Criador de Sonhos
+- `/visamatch` - Análise de Visto
+- `/especialista` - Chat com Especialista
+- `/profile` - Perfil do usuário

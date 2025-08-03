@@ -1,82 +1,71 @@
-import React from 'react';
+import { Toaster } from "@/components/ui/toaster";
+import { Toaster as Sonner } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Index from "./pages/Index";
+import Dreams from "./pages/Dreams";
+import VisaMatch from "./pages/VisaMatch";
+import Especialista from "./pages/Especialista";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import Profile from "./pages/Profile";
+import Configuracoes from "./pages/Configuracoes";
+import AdminOpenAI from "./pages/AdminOpenAI";
+import FerramentasIndex from "./pages/ferramentas/index";
+import FamilyPlanner from "./pages/ferramentas/family-planner/index";
+import GetOpportunity from "./pages/ferramentas/get-opportunity/index";
+import ProjectUSA from "./pages/ferramentas/project-usa/index";
+import ServiceWay from "./pages/ferramentas/service-way/index";
+import Calcway from "./pages/ferramentas/calcway/index";
+import SimuladorEntrevista from "./pages/ferramentas/simulador-entrevista/index";
+import DestinosIndex from "./pages/destinos/index";
+import BlogIndex from "./pages/blog/index";
+import Contato from "./pages/Contato";
+import NotFound from "./pages/NotFound";
 
-function App() {
-  const containerStyle = {
-    minHeight: '100vh',
-    backgroundColor: '#f5f5f5',
-    fontFamily: 'Arial, sans-serif'
-  };
+const queryClient = new QueryClient();
 
-  const headerStyle = {
-    backgroundColor: '#ffffff',
-    boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-    padding: '20px 0'
-  };
-
-  const titleStyle = {
-    fontSize: '2rem',
-    fontWeight: 'bold',
-    color: '#1a1a1a',
-    textAlign: 'center',
-    margin: '0'
-  };
-
-  const mainStyle = {
-    padding: '40px 20px',
-    textAlign: 'center'
-  };
-
-  const cardStyle = {
-    backgroundColor: '#ffffff',
-    border: '2px dashed #d1d5db',
-    borderRadius: '8px',
-    padding: '60px 20px',
-    margin: '0 auto',
-    maxWidth: '600px'
-  };
-
-  const subtitleStyle = {
-    fontSize: '1.5rem',
-    fontWeight: '600',
-    color: '#374151',
-    marginBottom: '16px'
-  };
-
-  const textStyle = {
-    color: '#6b7280',
-    marginBottom: '24px'
-  };
-
-  const badgeStyle = {
-    display: 'inline-block',
-    backgroundColor: '#dcfce7',
-    color: '#166534',
-    padding: '8px 16px',
-    borderRadius: '20px',
-    fontSize: '0.875rem',
-    fontWeight: '500'
-  };
-
-  return React.createElement('div', { style: containerStyle },
-    React.createElement('header', { style: headerStyle },
-      React.createElement('h1', { style: titleStyle },
-        'LifeWay USA - Admin Panel'
-      )
-    ),
-    React.createElement('main', { style: mainStyle },
-      React.createElement('div', { style: cardStyle },
-        React.createElement('h2', { style: subtitleStyle },
-          'Painel Administrativo'
-        ),
-        React.createElement('p', { style: textStyle },
-          'Sistema de administração do LifeWay USA em funcionamento!'
-        ),
-        React.createElement('span', { style: badgeStyle },
-          '✅ Deploy Successful'
-        )
-      )
-    )
-  );
-}
+const App = () => (
+  <QueryClientProvider client={queryClient}>
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      <BrowserRouter
+        future={{
+          v7_startTransition: true,
+          v7_relativeSplatPath: true
+        }}
+      >
+        <div className="min-h-screen flex flex-col">
+          <main className="flex-1">
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/dreams" element={<Dreams />} />
+              <Route path="/visa-match" element={<VisaMatch />} />
+              <Route path="/especialista" element={<Especialista />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/configuracoes" element={<Configuracoes />} />
+              <Route path="/admin/openai" element={<AdminOpenAI />} />
+              <Route path="/ferramentas" element={<FerramentasIndex />} />
+              <Route path="/ferramentas/family-planner" element={<FamilyPlanner />} />
+              <Route path="/ferramentas/get-opportunity" element={<GetOpportunity />} />
+              <Route path="/ferramentas/project-usa" element={<ProjectUSA />} />
+              <Route path="/ferramentas/service-way" element={<ServiceWay />} />
+              <Route path="/ferramentas/calcway" element={<Calcway />} />
+              <Route path="/ferramentas/simulador-entrevista" element={<SimuladorEntrevista />} />
+              <Route path="/destinos" element={<DestinosIndex />} />
+              <Route path="/blog" element={<BlogIndex />} />
+              <Route path="/contato" element={<Contato />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+        </div>
+      </BrowserRouter>
+    </TooltipProvider>
+  </QueryClientProvider>
+);
 
 export default App;
